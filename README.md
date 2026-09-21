@@ -27,10 +27,10 @@ O repositório está organizado da seguinte forma:
 CineData-Analytics/
 │
 ├── 📂 Notebooks/
-│   ├── Landing_to_Bronze.ipynb          # Ingestão dos dados brutos para a camada Bronze
+│   ├── Landing_to_Bronze.ipynb         # Ingestão dos dados brutos para a camada Bronze
 │   ├── Bronze_to_Silver.ipnyb         # Limpeza, padronização e tipagem para a camada Silver
-│   └── Silver_to_Gold.ipnyb           # Agregações e modelagem analítica para a camada Gold
-│
+|   ├── Silver_to_Gold.ipnyb            # Agregações e modelagem analítica para a camada Gold
+│   └── Notebook_Visualização.ipnyb      # Notebook onde fiz algumas visualizações dos dados
 ├── 📂 Job/
 │   ├── job.yaml                    # Configuração e definição do Job no Databricks
 │   └── execução_job.png            # Evidência da execução bem-sucedida do pipeline no Databricks
